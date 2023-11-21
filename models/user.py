@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-""" Module that define the user class """
-
+"""This module defines a class User"""
 from models.base_model import BaseModel
-import json
 
 
 class User(BaseModel):
-    """ User class that inherits from BaseModel """
-
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    """This class defines a user by various attributes"""
+    email = ''
+    password = ''
+    first_name = ''
+    last_name = ''
